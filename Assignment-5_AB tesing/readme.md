@@ -11,6 +11,7 @@
  
 ## Survey
 The objective of the AB test is to choose a pen color, turquoise and orange, to give an attendees.  
+
 ![](./img/pen_turquoise.png) ![](./img/pen_orange.png)
  
 ## Exploratory Data Analysis
@@ -23,9 +24,11 @@ Female: = 18
 The purpose of pen  
 For work: 32  
 For study: 18  
+
 ![](./img/gender.png) ![](./img/purpose.png)
  
 Next, look at the mean and variance of satisfaction scores.  
+
 ![](./img/summarize.png)
  
 ## 
