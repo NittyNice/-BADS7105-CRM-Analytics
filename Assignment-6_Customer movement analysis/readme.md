@@ -17,17 +17,14 @@ We want to display proportion of customers who make transaction each month, whic
 | Reactivated | ✅ | ❌ | ✅ |
 | New | ✅ | ❌ | ❌ |
 | Churn | ❌ | ✅ | |
-  
-**Current:** made purchases this month (M)  
-**Previous:** made purchases last month (M-1)  
-**Before:** made purchase before last month (< M-1) 
+
 
 ## Data Preparation
 **SQL:**[customer_movement.sql](./customer_movement.sql)  
 
-## Data Preparation
-**Result:**[customer_movement.csv](./customer_movement.csv)  
-**      :**[customer_movement.csv](./customer_movement.json)  
+## Result
+**CSV:**[customer_movement.csv](./customer_movement.csv)  
+**JSON:**[customer_movement.csv](./customer_movement.json)  
 
 ## Visualization
 ![sales](./img/customer_movement.png)
