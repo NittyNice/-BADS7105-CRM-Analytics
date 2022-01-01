@@ -7,15 +7,15 @@
 
 
 ## Overview
-![overview]('./img/dashboard_overview.png)
+![overview](./img/dashboard_overview.png)
 
 ## Sales
-![sales]('./img/dashboard_sales.png)
+![sales](./img/dashboard_sales.png)
 
 ## Ticket size
-![ticket size]('./img/dashboard_ticket_size.png)
+![ticket size](./img/dashboard_ticket_size.png)
 
 ## Transactions
-![transaction]('./img/dashboard_transaction.png)
+![transaction](./img/dashboard_transaction.png)
 
 
