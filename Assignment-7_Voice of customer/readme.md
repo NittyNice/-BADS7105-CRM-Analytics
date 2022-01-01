@@ -1,9 +1,10 @@
 # Voice of Customet
 [![](https://img.shields.io/badge/-Python-yellow)](https://www.python.org/)
-<a href=\"https://colab.research.google.com/github/NittyNice/BADS7105-CRM-Analytics/blob/main/Assignment-7_Voice%20of%20customer/Voice_of_customer.ipynb" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>
 
 ## Dataset
 [Wongnai Review](https://github.com/NittyNice/BADS7105-CRM-Analytics/blob/main/data/Wongnai%20Reviews%20-%20Small.csv) is a dataset of reviews for restaurant from [Wongnai](https://www.wongnai.com/), Thailand’s leading super-lifestyle platform, has connected people to good stuff through its comprehensive content and users’ reviews on restaurants, recipes, beauty, and travels.
+
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)]("https://colab.research.google.com/github/NittyNice/BADS7105-CRM-Analytics/blob/main/Assignment-7_Voice%20of%20customer/Voice_of_customer.ipynb) 
 
 ## Requirement
 - [tensorflow text](https://www.tensorflow.org/text) is a TensorFlow library of text related ops, modules, and subgraphs. The library can perform the preprocessing regularly required by text-based models, and includes other features useful for sequence modeling not provided by core TensorFlow.  
