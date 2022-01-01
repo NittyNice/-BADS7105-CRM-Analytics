@@ -13,6 +13,7 @@
 
 ## Clustering
 ![](./img/cluster.png)
+![](./img/distribution.png)
 
 - **Cluster 0: cafe hopper**  
 A group of reviewers who like to hunt for coffee shops and bakeries. The atmosphere is an important role in deciding by keyword 'น่ารัก' mean 'cute' and 'แนว' mean 'style'. **This group of reviewers tends to influence a wide range of people. Therefore, it is important to pay attention to the service in order to give them a best impression and give positive review the store.**
