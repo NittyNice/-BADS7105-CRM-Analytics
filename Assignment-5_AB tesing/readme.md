@@ -31,6 +31,27 @@ Next, look at the mean and variance of satisfaction scores.
 
 ![](./img/summarize.png)
  
-## 
- 
+## Hypothesis Testing overall  
+#### satisfy score distribuion  
+![](./img/score_of_turquoise_pen.png) ![](./img/score_of_orange_pen.png)
+
+#### T-Test
+![](./img/t_test_all.png)
+
+
+## Hypothesis Testing Gender Effect
+#### satisfy score distribuion  
+![](./img/score_of_turquoise_pen_man.png) ![](./img/score_of_orange_pen_woman.png)
+
+#### T-Test
+![](./img/t_test_gender.png)
+
+
+
+## Hypothesis Testing Purpose Effect  
+#### satisfy score distribuion  
+![](./img/score_of_turquoise_pen_for_study.png) ![](./img/score_of_orange_pen_for_work.png)
+
+#### T-Test
+![](./img/t_test_purpose.png)
  
