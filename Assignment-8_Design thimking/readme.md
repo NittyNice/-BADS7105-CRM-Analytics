@@ -1,7 +1,7 @@
 # Design thinking
  [![](https://img.shields.io/badge/-Design--Thinking-red)](#)
 
-Fussy flask is an assistant to make your daily work routine to keep you healthy.
+Fussy flask is an assistant to make your daily work routine to keep you healthy.  
 Work-life integration with intelligent flask.
 
 ## Empathize
