@@ -16,7 +16,7 @@ We create features based on 2 well known analysis techniques.:
 2) RFM (Recency, Frequency, and Monetary value)
 
 ### Visualize Response Distribution
-First, we take a look at amount of customer who response and non-response to campaign.
+First, we take a look at amount of customer who response and non-response to campaign.  
 ![response_distribution.png](./img/response_distribution.png)
 
 ### Visualize the correlation between each pair of variables
