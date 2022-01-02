@@ -29,25 +29,71 @@ We found that the number of customers who made only one transaction is 2,025 and
   
 In one transaction group, certain features are available to create clustering model, becouse everyone has same value of `Total visits` and `Total days` and certain features calculate by some features with `Total visits`. Therefore, it splits into two groups and creates a specific model for each group.  
 
-### One Time Purchase
+### 1) One Time Purchase
 #### Features
-`Total spend` : sum of all spend.
-`Total SKUs` : total of product types that customer purchased.
-`Recency` : duration in days customer gone since last transaction.
+`Total spend` : sum of all spend.  
+`Total SKUs` : total of product types that customer purchased.  
+`Recency` : duration in days customer gone since last transaction.  
 
 #### Choosing K clusters
 ![](./img/onetime_kmean_select_k_metrics.png)
 ![](./img/onetime_kmean_plot_elbow.png)
 
-### Many Time Purchase
+#### Clustering Model with K=3
+![](./img/onetime_kmean_k3_plot_model.png)
+![](./img/onetime_kmean_k3_plot_distribution.png)
+![](./img/onetime_kmean_k3_boxplot.png)
+![](./img/onetime_kmean_k3_statistics.png)
+
+#### Clustering Model with K=4
+![](./img/onetime_kmean_k4_plot_model.png)
+![](./img/onetime_kmean_k4_plot_distribution.png)
+![](./img/onetime_kmean_k4_boxplot.png)
+![](./img/onetime_kmean_k4_statistics.png)
+
+#### Visualize Group Transfer
+![](./img/onetime_sankey.png)
+
+#### Interpretation
+
+
+
+### 2) Many Time Purchase
 #### Features
-`Total spend` : sum of all spend.
-`Total visits` : total number transactions.
-`Total SKUs` : total of product types that customer purchased.
-`Ticket size` : average spend per transaction.
-`Total days`: time period of relationship.
-`Recency` : duration in days customer gone since last purchased.
-`Lifetime visit frequency`: frequency of transactions per day over the lifetime relationship.
+`Total spend` : sum of all spend.  
+`Total visits` : total number transactions.  
+`Total SKUs` : total of product types that customer purchased.  
+`Ticket size` : average spend per transaction.  
+`Total days`: time period of relationship.  
+`Recency` : duration in days customer gone since last purchased.  
+`Lifetime visit frequency`: frequency of transactions per day over the lifetime relationship.  
+
+#### Choosing K clusters
+![](./img/manytime_kmean_select_k_metrics.png)
+![](./img/manytime_kmean_plot_elbow.png)
+
+#### Clustering Model with K=4
+![](./img/manytime_kmean_k4_plot_model.png)
+![](./img/manytime_kmean_k4_plot_distribution.png)
+![](./img/manytime_kmean_k4_boxplot.png)
+![](./img/manytime_kmean_k4_statistics.png)
+
+#### Clustering Model with K=5
+![](./img/manytime_kmean_k5_plot_model.png)
+![](./img/manytime_kmean_k5_plot_distribution.png)
+![](./img/manytime_kmean_k5_boxplot.png)
+![](./img/manytime_kmean_k5_statistics.png)
+
+#### Clustering Model with K=6
+![](./img/manytime_kmean_k6_plot_model.png)
+![](./img/manytime_kmean_k6_plot_distribution.png)
+![](./img/manytime_kmean_k6_boxplot.png)
+![](./img/manytime_kmean_k6_statistics.png)
+
+#### Visualize Group Transfer
+![](./img/manytime_sankey.png)
+
+#### Interpretation
 
 
 
