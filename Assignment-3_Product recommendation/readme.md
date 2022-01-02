@@ -38,7 +38,7 @@ The table produced by the association rule mining algorithm contains three diffe
 The confidence of a rule LHS => RHS is the probability of seeing the consequent in a transaction given that it also contains the antecedent. Note that the metric is not symmetric or directed; for instance, the confidence for LHS => RHS is different than the confidence for RHS => LHS.  
 The confidence is 1 (maximal) for a rule LHS => RHS if the consequent and antecedent always occur together.
 
-confidence(LHS => RHS) = ![\Large \frac{confidence(LHS => RHS)}{support(c)}](https://latex.codecogs.com/svg.latex?\Large&space;\frac{confidence(LHS => RHS)}{support(c)})
+confidence(LHS => RHS) = ![\Large confidence(LHS => RHS) = \frac{confidence(LHS => RHS)}{support(c)}](https://latex.codecogs.com/svg.latex?\Large&space;confidence(LHS => RHS) = \frac{confidence(LHS => RHS)}{support(c)})
 
 3) Lift  
 The lift metric is commonly used to measure how much more often the antecedent and consequent of a rule A->C occur together than we would expect if they were statistically independent. If A and C are independent, the Lift score will be exactly 1.
