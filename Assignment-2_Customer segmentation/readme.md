@@ -72,8 +72,6 @@ When considering together, elbow and matrics, 4 clusters is a best choice becaus
 - Cluster 0, 1 and 2 same as above.
 - Cluster 3 : a group of customer who have moderate spending and quite a variety of SKUs on diverse recency, both long time ago and recently. This cluster are separated from cluster 0, 1 and 2.  
 
-**Action**
-
 
 ### 2) Many Time Purchase
 #### Features
@@ -121,7 +119,7 @@ When considering together, elbow and matrics, 4 or 5 clusters is a good choice b
 
 ##### Denominate cluster
 **K=4**
-- Cluster 0 :  
+- Cluster 0 : 
 - Cluster 1 :  
 - Cluster 2 :  
 - Cluster 3 : 
@@ -131,8 +129,6 @@ When considering together, elbow and matrics, 4 or 5 clusters is a good choice b
 
 **K=6**
 
-
-**Action**
 
 
 
