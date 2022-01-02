@@ -16,4 +16,6 @@
 
 ## table
 
-|![](./manytime_kmean_k4_boxplot_total_SKUs.png)|![](./manytime_kmean_k4_boxplot_total_SKUs.png)|![](./manytime_kmean_k4_boxplot_total_SKUs.png)|
+|![](./img/manytime_kmean_k4_boxplot_total_SKUs.png)|![](./img/manytime_kmean_k4_boxplot_total_SKUs.png)|![](./img/manytime_kmean_k4_boxplot_total_SKUs.png)|
+
+
