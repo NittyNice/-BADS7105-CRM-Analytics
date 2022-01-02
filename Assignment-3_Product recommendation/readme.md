@@ -19,7 +19,7 @@ There were a total of 26 products in the survey. We want to know the top 10 most
 ![top_ten_selling.png](./img/top_ten_selling.png)
 
 ## Market Basket Analysis with Association Rules
-### Key torms  
+### Key terms  
 1) Itemset: A group of one or more products is represented by the symbol set {X} e.g. {ipad case, Refrigerator, Running shoes}.
 2) Association rule: relationship rules Between the two itemset, an association rule is an implication expression of the form Itemset LHS (Left-hand side) => Itemset RHS (Right-hand side) e.g. {ipad case, Refrigerator, Running shoes} => {Musical Instruments}.
 
@@ -94,8 +94,8 @@ Visualize:
 
 Table:  
 
-![Product Matching Discount.png](./img/Product Matching Discount.png)
+![Product Matching Discount.png](./img/product_matching_discount.png)
 
 Visualize:  
 
-![Product Matching Discount_graph.png](./img/Product Matching Discount_graph.png)
+![Product Matching Discount_graph.png](./img/product_matching_discount_graph.png)
