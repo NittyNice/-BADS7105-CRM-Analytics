@@ -36,6 +36,9 @@ In one transaction group, certain features are available to create clustering mo
 `Recency` : duration in days customer gone since last transaction.  
 
 #### Choosing K clusters
+Considering by elbow, we will be choose 4 clusters. Considering by matrics, the best score of Calinski-Harabaszwe and Davies-Bouldin are in 3 clusters.
+When considering together, elbow and matrics, 4 clusters is a best choice because Calinski-Harabaszwe of 4 clusters is close to 3 clusters and silhouette is better than 3 clusters.  
+
 ![](./img/onetime_kmean_select_k_metrics.png)
 ![](./img/onetime_kmean_plot_elbow.png)
 
@@ -60,7 +63,16 @@ In one transaction group, certain features are available to create clustering mo
 ![](./img/onetime_sankey.png)
 
 ##### Denominate cluster
+**K=3**
+- Cluster 0 : a group of customer who have transacted recently, averaging less than 1 year, and those with low spending and a few SKUs.  
+- Cluster 1 : a group of customer who have high spending transaction and various SKUs on diverse recency, both long time ago and recently.  
+- Cluster 2 : a group of customer who have transacted long time ago, averaging more than a year, and those with low spending and a few SKUs.  
 
+**K=4**
+- Cluster 0, 1 and 2 same as above.
+- Cluster 3 : a group of customer who have moderate spending and quite a variety of SKUs on diverse recency, both long time ago and recently. This cluster are separated from cluster 0, 1 and 2.  
+
+**Action**
 
 
 ### 2) Many Time Purchase
@@ -74,6 +86,9 @@ In one transaction group, certain features are available to create clustering mo
 `Lifetime visit frequency`: frequency of transactions per day over the lifetime relationship.  
 
 #### Choosing K clusters
+Considering by elbow, we will be choose 5 clusters. Considering by matrics, the best of all scores are in 2 clusters, but it is not a good idea to cluster into 2 group.
+When considering together, elbow and matrics, 4 or 5 clusters is a good choice because Calinski-Harabaszwe are not much decreased from the highest and silhouette are the second and third highest.  
+
 ![](./img/manytime_kmean_select_k_metrics.png)
 ![](./img/manytime_kmean_plot_elbow.png)
 
@@ -105,7 +120,19 @@ In one transaction group, certain features are available to create clustering mo
 ![](./img/manytime_sankey.png)
 
 ##### Denominate cluster
+**K=4**
+- Cluster 0 :  
+- Cluster 1 :  
+- Cluster 2 :  
+- Cluster 3 : 
 
+**K=5**
+
+
+**K=6**
+
+
+**Action**
 
 
 
