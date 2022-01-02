@@ -30,18 +30,68 @@ Metrics for evaluating association rules and setting selection thresholds are li
 The table produced by the association rule mining algorithm contains three different support metrics: 'antecedent support', 'consequent support', and 'support'. Here, 'antecedent support' computes the proportion of transactions that contain the antecedent LHS, 'consequent support' computes the support for the itemset of the consequent RHS and, 'support' computes the proportion of transactions that contain the antecedent LHS and consequent RHS otgether.  
 
 <p align="center">
-  support(LHS => RHS) = support(LHS &cup; RHS), range: [0, 1]
+  support(LHS => RHS) = support(LHS &cup; RHS) , range: [0, 1]
 </p>
 
 
 2) Confidence  
 The confidence of a rule LHS => RHS is the probability of seeing the consequent in a transaction given that it also contains the antecedent. Note that the metric is not symmetric or directed; for instance, the confidence for LHS => RHS is different than the confidence for RHS => LHS.  
-The confidence is 1 (maximal) for a rule LHS => RHS if the consequent and antecedent always occur together.
+The confidence is 1 (maximal) for a rule LHS => RHS if the consequent and antecedent always occur together.  
 
-confidence(LHS => RHS) = ![\Large confidence(LHS => RHS) = \frac{confidence(LHS => RHS)}{support(c)}](https://latex.codecogs.com/svg.latex?\Large&space;confidence(LHS => RHS) = \frac{confidence(LHS => RHS)}{support(c)})
+<p align="center">
+  confidence(LHS => RHS) = support(LHS => RHS) / support(LHS) , range: [0, 1]
+</p>
+
 
 3) Lift  
-The lift metric is commonly used to measure how much more often the antecedent and consequent of a rule A->C occur together than we would expect if they were statistically independent. If A and C are independent, the Lift score will be exactly 1.
+The lift metric is commonly used to measure how much more often the antecedent and consequent of a rule LHS => RHS occur together than we would expect if they were statistically independent. If LHS and RHS are independent, the Lift score will be exactly 1.    
+
+<p align="center">
+  lift(LHS => RHS) = confidence(LHS => RHS) / support(RHS) , range: [0, &infin;]
+</p>
 
 
+4) Leverage  
+Leverage computes the difference between the observed frequency of LHS and RHS appearing together and the frequency that would be expected if LHS and RHS were independent. A leverage value of 0 indicates independence.  
 
+<p align="center">
+  levarage(LHS => RHS) = support(LHS => RHS) - (support(LHS) X support(RHS)) , range: [-1, 1]
+</p>
+
+
+5) Conviction  
+A high conviction value means that the consequent is highly depending on the antecedent. For instance, in the case of a perfect confidence score, the denominator becomes 0 (due to 1 - 1) for which the conviction score is defined as 'inf'. Similar to lift, if items are independent, the conviction is 1.  
+
+<p align="center">
+  conviction(LHS => RHS) = (1 - support(RHS)) / (1 - confidence(LHS => RHS)) , range: [0, &infin;]
+</p>
+
+## Rule statistics
+
+![rules_statistics.png](./img/rules_statistics.png)
+
+## Buy 2 get 15% off on top!
+### 1) Already add antecedent on basket, recommend the consequent. 
+- confidence >= 0.4375  (at the 25th percentile)
+- life >= 1.2
+
+Table:  
+
+![buy_two_get_percent_off.png](./img/buy_two_get_percent_off.png)
+
+Visualize:  
+
+![buy_two_get_percent_off_graph.png](./img/buy_two_get_percent_off_graph.png)
+
+
+### 2) Pop up advertising, "Product Matching Discount" for who already have certain itemset on basket.  
+- confidence >= 0.6  (at the 50th percentile)
+- life >= 1.2
+
+Table:  
+
+![Product Matching Discount.png](./img/Product Matching Discount.png)
+
+Visualize:  
+
+![Product Matching Discount_graph.png](./img/Product Matching Discount_graph.png)
