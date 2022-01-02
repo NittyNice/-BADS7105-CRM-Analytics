@@ -12,7 +12,7 @@
 
 ## Visualize the correlation between each pair of variables
 
-1) CLV model
+1) CLV model  
 ![overview](./img/clv_frequency_aou.png) ![overview](./img/clv_frequency_monetary.png) ![overview](./img/clv_frequency_ticketsize.png)
 ![overview](./img/clv_monetary_aou.png) ![overview](./img/clv_monetary_ticketsize.png) ![overview](./img/clv_aou_ticketsize.png) 
 ![overview](./img/clv_recency_aou.png) ![overview](./img/clv_recency_frequency.png) ![overview](./img/clv_recency_monetary.png)
