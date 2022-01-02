@@ -76,7 +76,7 @@ Lastly, we fixed imbalanced with SMOTE and split data to train set and test set 
 
 - Evaluation  
 
-![xgboost_rfm_auc.png](./img/xgboost_RFM_auc.png)
+![xgboost_rfm_auc.png](./img/xgboost_rfm_auc.png)
 
 - Visualize classification tree  
 
