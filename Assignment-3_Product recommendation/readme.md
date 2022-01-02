@@ -25,5 +25,9 @@ There were a total of 26 products in the survey. We want to know the top 10 most
 
 ### Metrics  
 Metrics for evaluating association rules and setting selection thresholds are listed below:
-1) Support
-h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
+1) Support  
+
+support<sub>LHS => RHS</sub> = support<sub>LHS &cup; RHS</sub>, range: [0, 1]
+
+2) 
