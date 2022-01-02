@@ -27,7 +27,19 @@ There were a total of 26 products in the survey. We want to know the top 10 most
 Metrics for evaluating association rules and setting selection thresholds are listed below:
 
 1) Support  
+The table produced by the association rule mining algorithm contains three different support metrics: 'antecedent support', 'consequent support', and 'support'. Here, 'antecedent support' computes the proportion of transactions that contain the antecedent LHS, 'consequent support' computes the support for the itemset of the consequent RHS and, 'support' computes the proportion of transactions that contain the antecedent LHS and consequent RHS otgether.  
 
-support<sub>LHS => RHS</sub> = support<sub>LHS &cup; RHS</sub>, range: [0, 1]
+support(LHS => RHS) = support(LHS &cup; RHS), range: [0, 1]
 
-2) 
+2) Confidence  
+The confidence of a rule LHS => RHS is the probability of seeing the consequent in a transaction given that it also contains the antecedent. Note that the metric is not symmetric or directed; for instance, the confidence for LHS => RHS is different than the confidence for RHS => LHS.  
+The confidence is 1 (maximal) for a rule LHS => RHS if the consequent and antecedent always occur together.
+
+confidence(LHS => RHS) = 
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
+
+3) Lift  
+The lift metric is commonly used to measure how much more often the antecedent and consequent of a rule A->C occur together than we would expect if they were statistically independent. If A and C are independent, the Lift score will be exactly 1.
+
+
+
