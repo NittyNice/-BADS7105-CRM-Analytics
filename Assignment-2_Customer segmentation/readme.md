@@ -13,3 +13,7 @@
 - [Plotly](https://plotly.com/), The front end for ML and data science models.
 
 ## Process Overview
+
+## table
+
+|![](./manytime_kmean_k4_boxplot_total_SKUs.png)|![](./manytime_kmean_k4_boxplot_total_SKUs.png)|![](./manytime_kmean_k4_boxplot_total_SKUs.png)|
