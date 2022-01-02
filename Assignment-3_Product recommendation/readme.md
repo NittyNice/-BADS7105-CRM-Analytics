@@ -28,8 +28,9 @@ Metrics for evaluating association rules and setting selection thresholds are li
 
 1) Support  
 The table produced by the association rule mining algorithm contains three different support metrics: 'antecedent support', 'consequent support', and 'support'. Here, 'antecedent support' computes the proportion of transactions that contain the antecedent LHS, 'consequent support' computes the support for the itemset of the consequent RHS and, 'support' computes the proportion of transactions that contain the antecedent LHS and consequent RHS otgether.  
-
-support(LHS => RHS) = support(LHS &cup; RHS), range: [0, 1]
+<p align="center">
+  support(LHS => RHS) = support(LHS &cup; RHS), range: [0, 1]
+</p>
 
 2) Confidence  
 The confidence of a rule LHS => RHS is the probability of seeing the consequent in a transaction given that it also contains the antecedent. Note that the metric is not symmetric or directed; for instance, the confidence for LHS => RHS is different than the confidence for RHS => LHS.  
