@@ -9,3 +9,11 @@
 [Retail_Data_Transactions.csv](https://github.com/NittyNice/BADS7105-CRM-Analytics/blob/main/data/Retail_Data_Transactions.csv) is a dataset about transaction of individual customer include date and transaction amount.
 
 ## Process Overview
+
+## Visualize the correlation between each pair of variables
+
+1) CLV model
+![overview](./img/clv_frequency_aou.png) ![overview](./img/clv_frequency_monetary.png) ![overview](./img/clv_frequency_ticketsize.png)
+![overview](./img/clv_monetary_aou.png) ![overview](./img/clv_monetary_ticketsize.png) ![overview](./img/clv_aou_ticketsize.png) 
+![overview](./img/clv_recency_aou.png) ![overview](./img/clv_recency_frequency.png) ![overview](./img/clv_recency_monetary.png)
+![overview](./img/clv_recency_ticketsize.png)
