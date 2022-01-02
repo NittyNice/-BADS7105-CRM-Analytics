@@ -39,22 +39,27 @@ In one transaction group, certain features are available to create clustering mo
 ![](./img/onetime_kmean_select_k_metrics.png)
 ![](./img/onetime_kmean_plot_elbow.png)
 
-#### Clustering Model with K=3
+#### Visualization Model
+##### Clustering Model with K=3
 ![](./img/onetime_kmean_k3_plot_model.png)
+##### Clustering Model with K=4
+![](./img/onetime_kmean_k4_plot_model.png)
+
+#### Interpretation
+##### Clustering Model with K=3
 ![](./img/onetime_kmean_k3_plot_distribution.png)
 ![](./img/onetime_kmean_k3_boxplot.png)
 ![](./img/onetime_kmean_k3_statistics.png)
 
-#### Clustering Model with K=4
-![](./img/onetime_kmean_k4_plot_model.png)
+##### Clustering Model with K=4
 ![](./img/onetime_kmean_k4_plot_distribution.png)
 ![](./img/onetime_kmean_k4_boxplot.png)
 ![](./img/onetime_kmean_k4_statistics.png)
 
-#### Visualize Group Transfer
+##### Visualize Group Transfer
 ![](./img/onetime_sankey.png)
 
-#### Interpretation
+##### Denominate cluster
 
 
 
@@ -72,28 +77,34 @@ In one transaction group, certain features are available to create clustering mo
 ![](./img/manytime_kmean_select_k_metrics.png)
 ![](./img/manytime_kmean_plot_elbow.png)
 
-#### Clustering Model with K=4
+#### Visualization Model
+##### Clustering Model with K=4
 ![](./img/manytime_kmean_k4_plot_model.png)
+##### Clustering Model with K=5
+![](./img/manytime_kmean_k5_plot_model.png)
+##### Clustering Model with K=6
+![](./img/manytime_kmean_k6_plot_model.png)
+
+#### Interpretation
+##### Clustering Model with K=4
 ![](./img/manytime_kmean_k4_plot_distribution.png)
 ![](./img/manytime_kmean_k4_boxplot.png)
 ![](./img/manytime_kmean_k4_statistics.png)
 
-#### Clustering Model with K=5
-![](./img/manytime_kmean_k5_plot_model.png)
+##### Clustering Model with K=5
 ![](./img/manytime_kmean_k5_plot_distribution.png)
 ![](./img/manytime_kmean_k5_boxplot.png)
 ![](./img/manytime_kmean_k5_statistics.png)
 
-#### Clustering Model with K=6
-![](./img/manytime_kmean_k6_plot_model.png)
+##### Clustering Model with K=6
 ![](./img/manytime_kmean_k6_plot_distribution.png)
 ![](./img/manytime_kmean_k6_boxplot.png)
 ![](./img/manytime_kmean_k6_statistics.png)
 
-#### Visualize Group Transfer
+##### Visualize Group Transfer
 ![](./img/manytime_sankey.png)
 
-#### Interpretation
+##### Denominate cluster
 
 
 
