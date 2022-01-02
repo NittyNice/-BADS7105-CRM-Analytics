@@ -10,10 +10,20 @@
 
 ## Process Overview
 
-## Visualize the correlation between each pair of variables
+## Feature Engineering
+We create features based on 2 analysis technique:
+1) CLV (Customer Lifetime Value)
+2) RFM (Recency, Frequency, and Monetary value)
 
-1) CLV model  
-![overview](./img/clv_frequency_aou.png) ![overview](./img/clv_frequency_monetary.png) ![overview](./img/clv_frequency_ticketsize.png)
-![overview](./img/clv_monetary_aou.png) ![overview](./img/clv_monetary_ticketsize.png) ![overview](./img/clv_aou_ticketsize.png) 
-![overview](./img/clv_recency_aou.png) ![overview](./img/clv_recency_frequency.png) ![overview](./img/clv_recency_monetary.png)
-![overview](./img/clv_recency_ticketsize.png)
+### Visualize the correlation between each pair of variables
+1) CLV  
+![overview](./img/clv_frequency_aou.png) ![overview](./img/clv_frequency_monetary.png) 
+![overview](./img/clv_frequency_ticketsize.png) ![overview](./img/clv_monetary_aou.png) 
+![overview](./img/clv_monetary_ticketsize.png) ![overview](./img/clv_aou_ticketsize.png) 
+![overview](./img/clv_recency_aou.png) ![overview](./img/clv_recency_frequency.png) 
+![overview](./img/clv_recency_monetary.png) ![overview](./img/clv_recency_ticketsize.png)
+
+1) RFM  
+![overview](./img/rfm_frequency_monetary) ![overview](./img/rfm_recency_frequency.png) 
+![overview](./img/rfm_recency_monetary.png)
+
