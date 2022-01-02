@@ -35,37 +35,41 @@ The table produced by the association rule mining algorithm contains three diffe
 
 
 2) Confidence  
-The confidence of a rule LHS => RHS is the probability of seeing the consequent in a transaction given that it also contains the antecedent. Note that the metric is not symmetric or directed; for instance, the confidence for LHS => RHS is different than the confidence for RHS => LHS.  
-The confidence is 1 (maximal) for a rule LHS => RHS if the consequent and antecedent always occur together.  
-
+The confidence of a rule LHS => RHS is the probability of seeing the consequent in a transaction given that it also contains the antecedent. Note that the metric is not symmetric or directed; for instance, the confidence for LHS => RHS is different than the confidence for RHS => LHS. The confidence is 1 (maximal) for a rule LHS => RHS if the consequent and antecedent always occur together.  
+  
+  
 <p align="center">
   confidence(LHS => RHS) = support(LHS => RHS) / support(LHS) , range: [0, 1]
 </p>
-
-
+  
+  
 3) Lift  
 The lift metric is commonly used to measure how much more often the antecedent and consequent of a rule LHS => RHS occur together than we would expect if they were statistically independent. If LHS and RHS are independent, the Lift score will be exactly 1.    
-
+  
+  
 <p align="center">
   lift(LHS => RHS) = confidence(LHS => RHS) / support(RHS) , range: [0, &infin;]
 </p>
-
-
+  
+  
 4) Leverage  
 Leverage computes the difference between the observed frequency of LHS and RHS appearing together and the frequency that would be expected if LHS and RHS were independent. A leverage value of 0 indicates independence.  
-
+  
+  
 <p align="center">
   levarage(LHS => RHS) = support(LHS => RHS) - (support(LHS) X support(RHS)) , range: [-1, 1]
 </p>
-
-
+  
+  
 5) Conviction  
 A high conviction value means that the consequent is highly depending on the antecedent. For instance, in the case of a perfect confidence score, the denominator becomes 0 (due to 1 - 1) for which the conviction score is defined as 'inf'. Similar to lift, if items are independent, the conviction is 1.  
-
+  
+  
 <p align="center">
   conviction(LHS => RHS) = (1 - support(RHS)) / (1 - confidence(LHS => RHS)) , range: [0, &infin;]
 </p>
-
+  
+  
 ## Rule statistics
 
 ![rules_statistics.png](./img/rules_statistics.png)
