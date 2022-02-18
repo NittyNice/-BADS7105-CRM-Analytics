@@ -19,7 +19,7 @@
 ![](./img/cluster_distribution.png)
 
 
-- **Cluster 2: strength flavor**
+- **Cluster 0: strength flavor**
 A group of reviewers who like the strength flavor of food by keywords 'ส้มตำ' mean 'Green Papaya Salad (spicy Thai food)' ,'แซ่บ' mean 'yummy', 'รสชาติ' mean 'flavor' and 'ยำ' mean 'spicy salad'. Spicy Thai food is easy to find in general, but not every restaurant is delicious. Keyword 'อร่อย' mean 'delicious' indicates that this group tend to find delicious restaurants to satisfy their needs. **It is well known that the strong, mean spicy, flavor has an extreme effect on both likes and dislikes. Mind your flavor and satisfy them to give you the best reviews.**
 
 - **Cluster 1: cafe hopper**  
@@ -29,7 +29,7 @@ A group of reviewers who like to hunt for coffee shops and bakeries. The atmosph
 A group of reviewers who like the store and leave reviews. The firest keyword is 'อร่อย' mean 'delicious', it indicate of satisfaction in the store they purchase. And others key, 'ร้านกาแฟ' meab 'cefe', 'กาแฟ' mean 'coffee', 'อาหาร' mean 'food', 'ชอบ' mean 'like' and 'ร้านอาหาร' mean 'restaurant' indicate that it doesn't have a specific store type.**
 
 - **Cluster 3: Bubble tea heal their life**
-A group of reviewers who love bubble tea. Follwer ther top keywords 'ชา' mean 'tea', 'นม' mean 'milk' and 'ไข่มุก' mean 'bubble' are identify this group as bubblb tee lover. **No more words, just fulfill their life.**
+A group of reviewers who love bubble tea. Follwer ther top keywords 'ชา' mean 'tea', 'นม' mean 'milk' and 'ไข่มุก' mean 'bubble' are identify this group as bubble tea lover. **No more words, just fulfill their life.**
 
 
 
