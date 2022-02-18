@@ -16,11 +16,13 @@
 
 ## Clustering
 - The most used topic in the review  
-![](./img/cluster.png)
+  
+![](./img/cluster.png)  
 - Distribution of reviews in each cluster  
+  
 ![](./img/cluster_distribution.png)
 
-
+## Conclusion
 - **Cluster 0: strength flavor**  
 A group of reviewers who like the strength flavor of food by keywords 'ส้มตำ' mean 'Green Papaya Salad (spicy Thai food)' ,'แซ่บ' mean 'yummy', 'รสชาติ' mean 'flavor' and 'ยำ' mean 'spicy salad'. Spicy Thai food is easy to find in general, but not every restaurant is delicious. Keyword 'อร่อย' mean 'delicious' indicates that this group tend to find delicious restaurants to satisfy their needs. **It is well known that the strong, mean spicy, flavor has an extreme effect on both likes and dislikes. Mind your flavor and satisfy them to give you the best reviews.**
 
