@@ -20,11 +20,11 @@ We want to display proportion of customers who make transaction each month, whic
 
 
 ## Data Preparation
-**SQL: **[customer_movement.sql](./customer_movement.sql)  
+**SQL:** [customer_movement.sql](./customer_movement.sql)  
 
 ## Result
-**CSV: **[customer_movement.csv](./customer_movement.csv)  
-**JSON: **[customer_movement.json](./customer_movement.json)  
+**CSV:** [customer_movement.csv](./customer_movement.csv)  
+**JSON:** [customer_movement.json](./customer_movement.json)  
 
 ## Visualization
 ![sales](./img/customer_movement.png)
