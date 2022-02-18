@@ -29,7 +29,7 @@ A group of reviewers who like the strength flavor of food by keywords 'ส้ม
 A group of reviewers who like to hunt for coffee shops and bakeries. The atmosphere is an important role in deciding by keyword 'น่ารัก' mean 'cute' and 'แนว' mean 'style'. **This group of reviewers tends to influence a wide range of people. Therefore, it is important to pay attention to the service in order to give them a best impression and give positive review the store.**
 
 - **Cluster 2: Genaral restaurant lover**  
-A group of reviewers who like the store and leave reviews. The firest keyword is 'อร่อย' mean 'delicious', it indicate of satisfaction in the store they purchase. And others key, 'ร้านกาแฟ' meab 'cefe', 'กาแฟ' mean 'coffee', 'อาหาร' mean 'food', 'ชอบ' mean 'like' and 'ร้านอาหาร' mean 'restaurant' indicate that it doesn't have a specific store type.**
+A group of reviewers who like the store and leave reviews. The firest keyword is 'อร่อย' mean 'delicious', it indicate of satisfaction in the store they purchase. And others key, 'ร้านกาแฟ' mean 'cefe', 'กาแฟ' mean 'coffee', 'อาหาร' mean 'food', 'ชอบ' mean 'like' and 'ร้านอาหาร' mean 'restaurant' indicate that it doesn't have a specific store type.**
 
 - **Cluster 3: Bubble tea heal their life**  
 A group of reviewers who love bubble tea. Follwer ther top keywords 'ชา' mean 'tea', 'นม' mean 'milk' and 'ไข่มุก' mean 'bubble' are identify this group as bubble tea lover. **No more words, just fulfill their life.**
