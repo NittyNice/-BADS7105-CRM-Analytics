@@ -22,7 +22,7 @@ First, we take a look at amount of customer who response and non-response to cam
 
 ### Visualize the correlation between each pair of variables
 Next, we create features based on 2 well known analysis techniques.
-1) CLV  
+1) CLV (Customer Lifetime Value)
 
 ![clv_frequency_aou.png](./img/clv_frequency_aou.png) ![clv_frequency_monetary.png](./img/clv_frequency_monetary.png) 
 ![clv_frequency_ticketsize.png](./img/clv_frequency_ticketsize.png) ![clv_monetary_aou.png](./img/clv_monetary_aou.png) 
@@ -30,7 +30,7 @@ Next, we create features based on 2 well known analysis techniques.
 ![clv_recency_aou.png](./img/clv_recency_aou.png) ![clv_recency_frequency.png](./img/clv_recency_frequency.png) 
 ![clv_recency_monetary.png](./img/clv_recency_monetary.png) ![clv_recency_ticketsize.png](./img/clv_recency_ticketsize.png)
 
-1) RFM  
+1) RFM (Recency, Frequency, and Monetary value)
 
 ![overview](./img/rfm_frequency_monetary.png) ![overview](./img/rfm_recency_frequency.png) 
 ![overview](./img/rfm_recency_monetary.png)
