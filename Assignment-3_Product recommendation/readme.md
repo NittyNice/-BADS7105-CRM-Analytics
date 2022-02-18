@@ -76,6 +76,7 @@ A high conviction value means that the consequent is highly depending on the ant
 
 ## Buy 2 get 15% off on top!
 ### 1) Already add antecedent on basket, recommend the consequent. 
+When a customer picks up one item, we will recommend another item that is frequently bought together.
 - confidence >= 0.4375  (at the 25th percentile)
 - life >= 1.2
 
@@ -89,6 +90,7 @@ Visualize:
 
 
 ### 2) Pop up advertising, "Product Matching Discount" for who already have certain itemset on basket.  
+When a customer picks up one item, we will recommend a pair of products with discount that is frequently bought together after pick antecedent item.
 - confidence >= 0.6  (at the 50th percentile)
 - life >= 1.2
 
