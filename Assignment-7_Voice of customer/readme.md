@@ -15,9 +15,9 @@
 ## Process Overview
 
 ## Clustering
-The most used topic in the review
+- The most used topic in the review  
 ![](./img/cluster.png)
-Distribution of reviews in each cluster
+- Distribution of reviews in each cluster  
 ![](./img/cluster_distribution.png)
 
 
